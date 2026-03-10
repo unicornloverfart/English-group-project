@@ -2,51 +2,64 @@
 <html>
 <head>
 <title>Arcade Hub</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
+
 body{
 font-family:Arial;
-background:#121212;
+background:#111;
 color:white;
+margin:0;
+}
+
+header{
 text-align:center;
+padding:20px;
+font-size:30px;
 }
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
 padding:20px;
 }
 
 .card{
 background:#1f1f1f;
-padding:20px;
 border-radius:12px;
-cursor:pointer;
+padding:20px;
+text-align:center;
 transition:0.2s;
+cursor:pointer;
 }
 
 .card:hover{
 background:#333;
 }
+
+a{
+text-decoration:none;
+color:white;
+}
+
 </style>
 
 </head>
 
 <body>
 
-<h1>Arcade Hub</h1>
+<header>Arcade Hub</header>
 
 <div class="grid">
 
-<a href="gd.html"><div class="card">Geometry Dash</div></a>
+<a href="game1.html"><div class="card">Game Page 1</div></a>
 
-<a href="fnaf.html"><div class="card">Five Nights at Freddy's</div></a>
+<a href="game2.html"><div class="card">Game Page 2</div></a>
 
-<a href="papa.html"><div class="card">Papa's Pizzeria</div></a>
-
-<a href="sandbox.html"><div class="card">Block Sandbox</div></a>
+<a href="game3.html"><div class="card">Game Page 3</div></a>
 
 </div>
 
